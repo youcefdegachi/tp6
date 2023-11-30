@@ -1,0 +1,93 @@
+
+
+.hd{
+  text-align: center;
+  color: red;
+}
+
+
+
+// .face-snap-card {
+//     width: 35%;
+//     img {
+//     width: 100%;
+//     }
+//    }
+.face-snap-card {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 30px;
+    box-shadow: lightgray 4px 4px 20px;
+    img {
+    width: 100%;
+    }
+    h2 {
+    margin-bottom: 0;
+    }
+    p {
+    font-weight: 300;
+    font-size: 16px;
+    }
+    button {
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: lightgray 3px 3px 7px;
+    margin-right: 20px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    &:active {
+    transform: translate(1px, 1px);
+    box-shadow: lightgray 0 0 5px;
+    }
+}
+}
+
+
+
+
+.snapped {
+    background-color: rgba(rgb(144, 169, 238), 0.4);
+    color: darkgreen;
+    button {
+    box-shadow: rgb(11, 20, 149) 3px 3px 7px;
+    color: darkgreen;
+    &:active {
+    box-shadow: rgb(55, 24, 213) 0 0 5px;
+}}}
+
+section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    max-width: 600px;
+  }
+  
+  .example-button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
+  

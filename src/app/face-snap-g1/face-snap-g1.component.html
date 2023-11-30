@@ -1,0 +1,37 @@
+<!-- <div class="face-snap-card">
+    <h2>{{faceSnap.title}}</h2>
+    <p>Mis en ligne {{faceSnap.createdDate}}</p>
+    <p>{{faceSnap.description}}</p>
+    <p>{{faceSnap.snaps}}</p>
+    <img [src]="faceSnap.imageUrl" [alt]="faceSnap.title">
+    <button (click)="onSnap()">{{faceSnap.buttonText}}</button>
+
+
+
+    [ngClass]="{ snapped: faceSnap.buttonText === 'Oops, unSnap!'}"
+</div> -->
+
+<a routerLink="/" > <h1 class="hd"> face snap G1</h1> </a>
+
+<section>
+  <div class="example-label">Basic</div>
+  <div class="example-button-row">
+    <button mat-button>Basic</button>
+    <button mat-button color="primary">Primary</button>
+    <button mat-button color="accent">Accent</button>
+    <button mat-button color="warn">Warn</button>
+    <button mat-button disabled>Disabled</button>
+    <a mat-button href="https://www.google.com/" target="_blank">Link</a>
+  </div>
+</section>
+
+
+<div class="face-snap-card" >
+    <h2>{{ faceSnap.title }}</h2>
+    <p>Mis en ligne le {{ faceSnap.createdDate }}</p>
+    <img [src]="faceSnap.imageUrl" [alt]="faceSnap.title">
+    <p>{{ faceSnap.description }}</p>
+<p>
+<button (click)="onSnap()">{{ faceSnap.buttonText }}</button>click {{ faceSnap.snaps }}
+</p>
+</div>
